@@ -1,0 +1,135 @@
+
+body{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin: 0;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     flex-grow: 0;
+   
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+}
+.main{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    gap: 5px;
+    
+
+}
+
+.main_text, .imgs{
+    width: 450px;
+    height: 220px;
+
+}
+.main_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    
+    flex-grow: 0;
+    gap: 5px;
+}
+.button{
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin-top: 5px;
+    width: 110px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.img{
+    width: 400px;
+    height: 200px;
+
+
+}
+
+.imgs{
+
+    margin-left: 70px;
+}
+.this{
+    font-size: 50px;
+    font-weight: bold;
+    flex-grow: 0;
+}
+.logo{
+    font-size: larger;
+    font-weight: bold;
+}
+.header, .footer{
+    background-color: #1F2937;
+    color: white;
+    max-height: 40px;
+    display: flex;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    color: rgb(220, 220, 220);
+
+}
+
+.header, .quote, .main, .lower{
+    flex-grow: 1;
+}
+.quote{
+    font-family:"light italic", system-ui, -apple-system;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+.footer{
+    margin-top: auto;
+   
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    gap: 15px;
+    flex-grow: 0;
+
+}
+.card{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid red;
+    align-items: center;
+    width: 110;
+
+}
+.card_pic{
+    border: 2px solid blue;
+    width: 110;
+    height: 140;
+    display: flex;
+    flex-grow: 1;
+    }
+img{
+    
+}
+.card_text{
+    
+}
