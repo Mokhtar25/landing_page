@@ -5,14 +5,16 @@ body{
      min-height: 100vh;
      display: flex;
      flex-direction: column;
-     flex-grow: 0;
-   
+     
+       
+}
 .header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 150px;
+    flex-shrink: 0;
 }
-}
+
 .main{
     background-color: #1F2937;
     display: flex;
@@ -20,15 +22,15 @@ body{
     align-items: center;
     color: #E5E7EB;
     gap: 5px;
-    
-
+    min-height: 350px;
 }
 
 .main_text, .imgs{
     width: 450px;
-    height: 220px;
-
+    height: 220px; 
 }
+
+
 .main_text{
     display: flex;
     flex-direction: column;
@@ -56,12 +58,12 @@ body{
     height: 200px;
 
 
-}
+} 
 
-.imgs{
+ .imgs{
 
     margin-left: 70px;
-}
+} 
 .this{
     font-size: 50px;
     font-weight: bold;
@@ -99,37 +101,82 @@ ul{
     margin-top: auto;
    
 }
+.lower{
+    display: flex;
+    flex-direction: column;
+}
 .info{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 30px;
+    flex-grow: 1;
+    height: 450px;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
 }
 .cards{
     display: flex;
-    gap: 15px;
-    flex-grow: 0;
-
+    gap: 50px;
 }
+
 .card{
     display: flex;
     flex-direction: column-reverse;
-    border: 1px solid red;
-    align-items: center;
-    width: 110;
+    width: 140px;
+    
+    
 
 }
 .card_pic{
-    border: 2px solid blue;
-    width: 110;
+    border: 3px solid #3882F6;
+    border-radius: 0.4rem;
+    width: 130px;
     height: 140;
     display: flex;
-    flex-grow: 1;
+    flex-wrap: wrap;
+
     }
 img{
-    
+    border-radius: 0.1rem;
+    object-fit: cover;
+
 }
 .card_text{
+    min-height: 100px;    
+    flex-wrap: wrap;
+    flex-basis: auto;
+    text-align: center;
     
+}
+.info_header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937 ;
+    margin-bottom: 30px;
+
+
+}
+
+.quote_con{
+    min-height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    padding: 50px 80px;
+    width:1000px;
+    height:100px;
+    margin-top: 80px;
+    padding-top: 60px;
+}
+.source{
+    height: 100px;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 600px;
 }
