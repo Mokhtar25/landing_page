@@ -171,7 +171,7 @@ img{
     width:1000px;
     height:100px;
     margin-top: 80px;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 .source{
     height: 100px;
@@ -179,4 +179,78 @@ img{
     font-weight: bold;
     display: flex;
     margin-left: 600px;
+}
+.action{
+    display: flex;
+    height: 300px ;
+    justify-content:center ;
+    align-items: center;
+
+}
+.action_middle{
+    display: flex;
+    height: 150px;
+    width: 900px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0.6rem;
+    background-color: #3882F6;
+    color: white;
+
+}
+.action_header{
+    font-size: 24px;
+    font-weight: 700;
+}
+button{
+	border: 2px solid white;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin-top: 5px;
+    width: 130px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+button:active{
+    background-color: aliceblue;
+    transition: background-color 0.15s ease-in-out
+
+}
+.button:active{
+    background-color: aliceblue;
+    transition: background-color 0.15s ease-in-out
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.card_pic:hover{
+    cursor: pointer;
+}
+.card_pic:active{
+    border: 6px solid lightblue;
+    transition: border 0.45 ease-in-out
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+li:active{
+    font-weight: 600;
+
+}
+li:hover{
+    cursor: pointer;
 }
